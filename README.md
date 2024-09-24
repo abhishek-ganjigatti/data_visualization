@@ -1,5 +1,5 @@
 pip install ruptures
-**#Maneuver Detection Tools
+**Maneuver Detection Tools
 **
 import pandas as pd
 import numpy as np
@@ -91,7 +91,7 @@ df['sma_acceleration'] = df['sma_velocity'].diff(1)  # Second derivative of SMA
 print(df.head())
 
 **
-#Visualizations
+Visualizations
 **
 
 import matplotlib.pyplot as plt
